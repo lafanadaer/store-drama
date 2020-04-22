@@ -117,7 +117,6 @@ public class ChatController {
         chat.setTitle(title);
         chat.setContent(content);
 
-
         boolean res = chatService.updateChatMsg(chat);
         if (res){
             jsonObject.put("code", 1);
